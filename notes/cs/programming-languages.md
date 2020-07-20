@@ -6,7 +6,7 @@ Tags: [concurrency, async, await, callstack, iterator, coroutine, fiber, thread,
 - [Iteration Inside and Out, Part 2](http://journal.stuffwithstuff.com/2013/02/24/iteration-inside-and-out-part-2/) - munificent
 - [What Color is Your Function?](http://journal.stuffwithstuff.com/2015/02/01/what-color-is-your-function/) - munificent
 
-## UFCS/Dispatch
+## UFCS & Dispatch
 Tags: [expression problem, multiple dispatch, visitor pattern, monkey patching, duck typing, extension methods, type classes, Uniform Function Call Syntax]
 - [UFCS](https://en.wikipedia.org/wiki/Uniform_Function_Call_Syntax)
 - [The simplest possible method syntax in C](http://esr.ibiblio.org/?p=7380) - Eric S. Raymond (*esr*)
