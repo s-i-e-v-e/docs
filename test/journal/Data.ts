@@ -15,7 +15,7 @@ export function db_init_ro() {
 }
 
 export function db_get_max(db: DB) {
-    const [max] = db.query('SELECT MAX(n) FROM numbers;');
+    const [max, f] = db.query('SELECT MAX(n), iif(MAX(n) > 100, 1, 0) FROM numbers;');
     return Number(max);
 }
 
