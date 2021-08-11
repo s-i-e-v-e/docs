@@ -11,7 +11,7 @@ export function db_init() {
 }
 
 export function db_init_ro() {
-    return new DB(path);
+    return new DB(path, {mode: 'read'});
 }
 
 export function db_get_max(db: DB) {
