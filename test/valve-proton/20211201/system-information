@@ -1,0 +1,3762 @@
+Computer Information:
+    Manufacturer:  Gigabyte Technology Co., Ltd.
+    Model:  B550 AORUS PRO
+    Form Factor: Desktop
+    No Touch Input Detected
+
+Processor Information:
+    CPU Vendor:  AuthenticAMD
+    CPU Brand:  AMD Ryzen 9 5900X 12-Core Processor            
+    CPU Family:  0x19
+    CPU Model:  0x21
+    CPU Stepping:  0x0
+    CPU Type:  0x0
+    Speed:  4950 Mhz
+    24 logical processors
+    12 physical processors
+    HyperThreading:  Supported
+    FCMOV:  Supported
+    SSE2:  Supported
+    SSE3:  Supported
+    SSSE3:  Supported
+    SSE4a:  Supported
+    SSE41:  Supported
+    SSE42:  Supported
+    AES:  Supported
+    AVX:  Supported
+    AVX2:  Supported
+    AVX512F:  Unsupported
+    AVX512PF:  Unsupported
+    AVX512ER:  Unsupported
+    AVX512CD:  Unsupported
+    AVX512VNNI:  Unsupported
+    SHA:  Supported
+    CMPXCHG16B:  Supported
+    LAHF/SAHF:  Supported
+    PrefetchW:  Unsupported
+
+Operating System Version:
+    "Manjaro Linux" (64 bit)
+    Kernel Name:  Linux
+    Kernel Version:  5.14.18-1-MANJARO
+    X Server Vendor:  The X.Org Foundation
+    X Server Release:  12101001
+    X Window Manager:  Xfwm4
+    Steam Runtime Version:  <Runtime disabled>
+
+Video Card:
+    Driver:  NVIDIA Corporation NVIDIA GeForce GTX 750 Ti/PCIe/SSE2
+    Driver Version:  4.6.0 NVIDIA 495.44
+    OpenGL Version: 4.6
+    Desktop Color Depth: 24 bits per pixel
+    Monitor Refresh Rate: 59 Hz
+    VendorID:  0x10de
+    DeviceID:  0x1380
+    Revision Not Detected
+    Number of Monitors:  1
+    Number of Logical Video Cards:  1
+    Primary Display Resolution:  3840 x 2160
+    Desktop Resolution: 3840 x 2160
+    Primary Display Size: 27.56" x 15.35" (31.54" diag)
+                                            70.0cm x 39.0cm (80.1cm diag)
+    Primary Bus: PCI Express 16x
+    Primary VRAM: 2048 MB
+    Supported MSAA Modes:  2x 4x 8x 16x 
+
+Sound card:
+    Audio device: Nvidia GPU 60 HDMI/DP
+
+Memory:
+    RAM:  128766 MB
+
+VR Hardware:
+    VR Headset: None detected
+
+Miscellaneous:
+    UI Language:  English
+    LANG:  en_US.utf8
+    Total Hard Disk Space Available:  937574 MB
+    Largest Free Hard Disk Block:  537793 MB
+
+Storage:
+    Number of SSDs: 0
+    Number of HDDs: 0
+
+"LD_* scout runtime" information:
+{
+  "can-write-uinput" : true,
+  "steam-installation" : {
+    "path" : "/home/sieve/.local/share/Steam",
+    "data_path" : "/home/sieve/.local/share/Steam",
+    "bin32_path" : "/home/sieve/.local/share/Steam/ubuntu12_32",
+    "steamscript_path" : "/usr/lib/steam/steam",
+    "steamscript_version" : "1.0.0.73",
+    "issues" : [
+      "unexpected-steam-uri-handler",
+      "unexpected-steam-desktop-id"
+    ]
+  },
+  "runtime" : {
+    "path" : null,
+    "version" : null,
+    "issues" : [
+      "disabled"
+    ]
+  },
+  "os-release" : {
+    "id" : "manjaro",
+    "id_like" : [
+      "arch"
+    ],
+    "name" : "Manjaro Linux",
+    "pretty_name" : "Manjaro Linux",
+    "build_id" : "rolling"
+  },
+  "container" : {
+    "type" : "none"
+  },
+  "driver_environment" : [
+    "DISPLAY=:0.0",
+    "LD_LIBRARY_PATH=/home/sieve/.local/share/Steam/ubuntu12_32:/home/sieve/.local/share/Steam/ubuntu12_32/panorama:/usr/lib/steam:/usr/lib32/steam",
+    "SDL_GAMECONTROLLERCONFIG=03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux\n03000000de280000fc11000001000000,Steam Controller,a:b0,b:b1,back:b6,dpdown:b14,dpleft:b15,dpright:b13,dpup:b12,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux",
+    "XDG_RUNTIME_DIR=/run/user/1000"
+  ],
+  "architectures" : {
+    "i386-linux-gnu" : {
+      "can-run" : true,
+      "libdl-LIB" : "lib32",
+      "libdl-PLATFORM" : "i686",
+      "runtime-linker" : {
+        "path" : "/lib/ld-linux.so.2",
+        "resolved" : "/usr/lib32/ld-2.33.so"
+      },
+      "library-issues-summary" : [
+        "cannot-load",
+        "missing-symbols",
+        "misversioned-symbols"
+      ],
+      "library-details" : {
+        "libCg.so" : {
+          "messages" : [
+            "Unable to find the library: libCg.so: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libCgGL.so" : {
+          "messages" : [
+            "Unable to find the library: libCgGL.so: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libGLEW.so.1.6" : {
+          "messages" : [
+            "Unable to find the library: libGLEW.so.1.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libSDL2_net-2.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libSDL2_net-2.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libXaw.so.7" : {
+          "messages" : [
+            "Unable to find the library: libXaw.so.7: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libXpm.so.4" : {
+          "messages" : [
+            "Unable to find the library: libXpm.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libasn1.so.8" : {
+          "messages" : [
+            "Unable to find the library: libasn1.so.8: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavahi-client.so.3" : {
+          "messages" : [
+            "Unable to find the library: libavahi-client.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavahi-common.so.3" : {
+          "messages" : [
+            "Unable to find the library: libavahi-common.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavcodec.so.53" : {
+          "messages" : [
+            "Unable to find the library: libavcodec.so.53: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavfilter.so.2" : {
+          "messages" : [
+            "Unable to find the library: libavfilter.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavformat.so.53" : {
+          "messages" : [
+            "Unable to find the library: libavformat.so.53: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavutil.so.51" : {
+          "messages" : [
+            "Unable to find the library: libavutil.so.51: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libcurl-gnutls.so.4" : {
+          "soname" : "libcurl.so.4",
+          "path" : "/usr/lib32/libcurl-gnutls.so.4",
+          "issues" : [
+            "missing-symbols",
+            "misversioned-symbols"
+          ],
+          "missing-symbols" : [
+            "curl_jmpenv@CURL_GNUTLS_3"
+          ],
+          "misversioned-symbols" : [
+            "curl_easy_cleanup@CURL_GNUTLS_3",
+            "curl_easy_duphandle@CURL_GNUTLS_3",
+            "curl_easy_escape@CURL_GNUTLS_3",
+            "curl_easy_getinfo@CURL_GNUTLS_3",
+            "curl_easy_init@CURL_GNUTLS_3",
+            "curl_easy_pause@CURL_GNUTLS_3",
+            "curl_easy_perform@CURL_GNUTLS_3",
+            "curl_easy_recv@CURL_GNUTLS_3",
+            "curl_easy_reset@CURL_GNUTLS_3",
+            "curl_easy_send@CURL_GNUTLS_3",
+            "curl_easy_setopt@CURL_GNUTLS_3",
+            "curl_easy_strerror@CURL_GNUTLS_3",
+            "curl_easy_unescape@CURL_GNUTLS_3",
+            "curl_escape@CURL_GNUTLS_3",
+            "curl_formadd@CURL_GNUTLS_3",
+            "curl_formfree@CURL_GNUTLS_3",
+            "curl_formget@CURL_GNUTLS_3",
+            "curl_free@CURL_GNUTLS_3",
+            "curl_getdate@CURL_GNUTLS_3",
+            "curl_getenv@CURL_GNUTLS_3",
+            "curl_global_cleanup@CURL_GNUTLS_3",
+            "curl_global_init@CURL_GNUTLS_3",
+            "curl_global_init_mem@CURL_GNUTLS_3",
+            "curl_maprintf@CURL_GNUTLS_3",
+            "curl_mfprintf@CURL_GNUTLS_3",
+            "curl_mprintf@CURL_GNUTLS_3",
+            "curl_msnprintf@CURL_GNUTLS_3",
+            "curl_msprintf@CURL_GNUTLS_3",
+            "curl_multi_add_handle@CURL_GNUTLS_3",
+            "curl_multi_assign@CURL_GNUTLS_3",
+            "curl_multi_cleanup@CURL_GNUTLS_3",
+            "curl_multi_fdset@CURL_GNUTLS_3",
+            "curl_multi_info_read@CURL_GNUTLS_3",
+            "curl_multi_init@CURL_GNUTLS_3",
+            "curl_multi_perform@CURL_GNUTLS_3",
+            "curl_multi_remove_handle@CURL_GNUTLS_3",
+            "curl_multi_setopt@CURL_GNUTLS_3",
+            "curl_multi_socket@CURL_GNUTLS_3",
+            "curl_multi_socket_action@CURL_GNUTLS_3",
+            "curl_multi_socket_all@CURL_GNUTLS_3",
+            "curl_multi_strerror@CURL_GNUTLS_3",
+            "curl_multi_timeout@CURL_GNUTLS_3",
+            "curl_mvaprintf@CURL_GNUTLS_3",
+            "curl_mvfprintf@CURL_GNUTLS_3",
+            "curl_mvprintf@CURL_GNUTLS_3",
+            "curl_mvsnprintf@CURL_GNUTLS_3",
+            "curl_mvsprintf@CURL_GNUTLS_3",
+            "curl_share_cleanup@CURL_GNUTLS_3",
+            "curl_share_init@CURL_GNUTLS_3",
+            "curl_share_setopt@CURL_GNUTLS_3",
+            "curl_share_strerror@CURL_GNUTLS_3",
+            "curl_slist_append@CURL_GNUTLS_3",
+            "curl_slist_free_all@CURL_GNUTLS_3",
+            "curl_strequal@CURL_GNUTLS_3",
+            "curl_strnequal@CURL_GNUTLS_3",
+            "curl_unescape@CURL_GNUTLS_3",
+            "curl_version@CURL_GNUTLS_3",
+            "curl_version_info@CURL_GNUTLS_3"
+          ]
+        },
+        "libcurl.so.4" : {
+          "soname" : "libcurl.so.4",
+          "path" : "/usr/lib32/steam/libcurl.so.4",
+          "issues" : [
+            "missing-symbols",
+            "misversioned-symbols"
+          ],
+          "missing-symbols" : [
+            "curl_jmpenv@CURL_OPENSSL_3"
+          ],
+          "misversioned-symbols" : [
+            "curl_easy_cleanup@CURL_OPENSSL_3",
+            "curl_easy_duphandle@CURL_OPENSSL_3",
+            "curl_easy_escape@CURL_OPENSSL_3",
+            "curl_easy_getinfo@CURL_OPENSSL_3",
+            "curl_easy_init@CURL_OPENSSL_3",
+            "curl_easy_pause@CURL_OPENSSL_3",
+            "curl_easy_perform@CURL_OPENSSL_3",
+            "curl_easy_recv@CURL_OPENSSL_3",
+            "curl_easy_reset@CURL_OPENSSL_3",
+            "curl_easy_send@CURL_OPENSSL_3",
+            "curl_easy_setopt@CURL_OPENSSL_3",
+            "curl_easy_strerror@CURL_OPENSSL_3",
+            "curl_easy_unescape@CURL_OPENSSL_3",
+            "curl_escape@CURL_OPENSSL_3",
+            "curl_formadd@CURL_OPENSSL_3",
+            "curl_formfree@CURL_OPENSSL_3",
+            "curl_formget@CURL_OPENSSL_3",
+            "curl_free@CURL_OPENSSL_3",
+            "curl_getdate@CURL_OPENSSL_3",
+            "curl_getenv@CURL_OPENSSL_3",
+            "curl_global_cleanup@CURL_OPENSSL_3",
+            "curl_global_init@CURL_OPENSSL_3",
+            "curl_global_init_mem@CURL_OPENSSL_3",
+            "curl_maprintf@CURL_OPENSSL_3",
+            "curl_mfprintf@CURL_OPENSSL_3",
+            "curl_mprintf@CURL_OPENSSL_3",
+            "curl_msnprintf@CURL_OPENSSL_3",
+            "curl_msprintf@CURL_OPENSSL_3",
+            "curl_multi_add_handle@CURL_OPENSSL_3",
+            "curl_multi_assign@CURL_OPENSSL_3",
+            "curl_multi_cleanup@CURL_OPENSSL_3",
+            "curl_multi_fdset@CURL_OPENSSL_3",
+            "curl_multi_info_read@CURL_OPENSSL_3",
+            "curl_multi_init@CURL_OPENSSL_3",
+            "curl_multi_perform@CURL_OPENSSL_3",
+            "curl_multi_remove_handle@CURL_OPENSSL_3",
+            "curl_multi_setopt@CURL_OPENSSL_3",
+            "curl_multi_socket@CURL_OPENSSL_3",
+            "curl_multi_socket_action@CURL_OPENSSL_3",
+            "curl_multi_socket_all@CURL_OPENSSL_3",
+            "curl_multi_strerror@CURL_OPENSSL_3",
+            "curl_multi_timeout@CURL_OPENSSL_3",
+            "curl_mvaprintf@CURL_OPENSSL_3",
+            "curl_mvfprintf@CURL_OPENSSL_3",
+            "curl_mvprintf@CURL_OPENSSL_3",
+            "curl_mvsnprintf@CURL_OPENSSL_3",
+            "curl_mvsprintf@CURL_OPENSSL_3",
+            "curl_share_cleanup@CURL_OPENSSL_3",
+            "curl_share_init@CURL_OPENSSL_3",
+            "curl_share_setopt@CURL_OPENSSL_3",
+            "curl_share_strerror@CURL_OPENSSL_3",
+            "curl_slist_append@CURL_OPENSSL_3",
+            "curl_slist_free_all@CURL_OPENSSL_3",
+            "curl_strequal@CURL_OPENSSL_3",
+            "curl_strnequal@CURL_OPENSSL_3",
+            "curl_unescape@CURL_OPENSSL_3",
+            "curl_version@CURL_OPENSSL_3",
+            "curl_version_info@CURL_OPENSSL_3"
+          ]
+        },
+        "libexif.so.12" : {
+          "messages" : [
+            "Unable to find the library: libexif.so.12: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libexpatw.so.1" : {
+          "messages" : [
+            "Unable to find the library: libexpatw.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libffi.so.6" : {
+          "messages" : [
+            "Unable to find the library: libffi.so.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_forms.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_forms.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_gl.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_gl.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_images.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_images.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libform.so.5" : {
+          "messages" : [
+            "Unable to find the library: libform.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libformw.so.5" : {
+          "messages" : [
+            "Unable to find the library: libformw.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgconf-2.so.4" : {
+          "messages" : [
+            "Unable to find the library: libgconf-2.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgdk_pixbuf_xlib-2.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgdk_pixbuf_xlib-2.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgnutls-extra.so.26" : {
+          "messages" : [
+            "Unable to find the library: libgnutls-extra.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgnutls.so.26" : {
+          "messages" : [
+            "Unable to find the library: libgnutls.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgssapi.so.3" : {
+          "messages" : [
+            "Unable to find the library: libgssapi.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstapp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstapp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstaudio-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstaudio-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstbase-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstbase-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcdda-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcdda-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcheck-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcheck-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcontroller-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcontroller-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstdataprotocol-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstdataprotocol-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstfft-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstfft-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstinterfaces-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstinterfaces-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstnet-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstnet-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstnetbuffer-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstnetbuffer-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstpbutils-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstpbutils-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstreamer-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstreamer-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstriff-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstriff-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstrtp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstrtp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstrtsp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstrtsp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstsdp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstsdp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgsttag-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgsttag-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstvideo-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstvideo-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhcrypto.so.4" : {
+          "messages" : [
+            "Unable to find the library: libhcrypto.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libheimbase.so.1" : {
+          "messages" : [
+            "Unable to find the library: libheimbase.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libheimntlm.so.0" : {
+          "messages" : [
+            "Unable to find the library: libheimntlm.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhogweed.so.4" : {
+          "messages" : [
+            "Unable to find the library: libhogweed.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhx509.so.5" : {
+          "messages" : [
+            "Unable to find the library: libhx509.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libjacknet.so.0" : {
+          "messages" : [
+            "Unable to find the library: libjacknet.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libjson.so.0" : {
+          "messages" : [
+            "Unable to find the library: libjson.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libkrb5.so.26" : {
+          "messages" : [
+            "Unable to find the library: libkrb5.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libmenu.so.5" : {
+          "messages" : [
+            "Unable to find the library: libmenu.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libmenuw.so.5" : {
+          "messages" : [
+            "Unable to find the library: libmenuw.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libmikmod.so.2" : {
+          "messages" : [
+            "Unable to find the library: libmikmod.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libncurses.so.5" : {
+          "messages" : [
+            "Unable to find the library: libncurses.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libncursesw.so.5" : {
+          "messages" : [
+            "Unable to find the library: libncursesw.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnettle.so.6" : {
+          "messages" : [
+            "Unable to find the library: libnettle.so.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnm-glib.so.4" : {
+          "messages" : [
+            "Unable to find the library: libnm-glib.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnm-util.so.2" : {
+          "messages" : [
+            "Unable to find the library: libnm-util.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnotify.so.4" : {
+          "messages" : [
+            "Unable to find the library: libnotify.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libopusfile.so.0" : {
+          "messages" : [
+            "Unable to find the library: libopusfile.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libopusurl.so.0" : {
+          "messages" : [
+            "Unable to find the library: libopusurl.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpanel.so.5" : {
+          "messages" : [
+            "Unable to find the library: libpanel.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpanelw.so.5" : {
+          "messages" : [
+            "Unable to find the library: libpanelw.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpangox-1.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libpangox-1.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpci.so.3" : {
+          "messages" : [
+            "Unable to find the library: libpci.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpcre.so.3" : {
+          "messages" : [
+            "Unable to find the library: libpcre.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpcreposix.so.3" : {
+          "messages" : [
+            "Unable to find the library: libpcreposix.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libroken.so.18" : {
+          "messages" : [
+            "Unable to find the library: libroken.so.18: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libsamplerate.so.0" : {
+          "messages" : [
+            "Unable to find the library: libsamplerate.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libsasl2.so.2" : {
+          "messages" : [
+            "Unable to find the library: libsasl2.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libselinux.so.1" : {
+          "messages" : [
+            "Unable to find the library: libselinux.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libspeex.so.1" : {
+          "messages" : [
+            "Unable to find the library: libspeex.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libspeexdsp.so.1" : {
+          "messages" : [
+            "Unable to find the library: libspeexdsp.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libsteam-runtime-tools-0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libsteam-runtime-tools-0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libswscale.so.2" : {
+          "messages" : [
+            "Unable to find the library: libswscale.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtasn1.so.3" : {
+          "messages" : [
+            "Unable to find the library: libtasn1.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtbb.so.2" : {
+          "messages" : [
+            "Unable to find the library: libtbb.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtbbmalloc.so.2" : {
+          "messages" : [
+            "Unable to find the library: libtbbmalloc.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtbbmalloc_proxy.so.2" : {
+          "messages" : [
+            "Unable to find the library: libtbbmalloc_proxy.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtic.so.5" : {
+          "messages" : [
+            "Unable to find the library: libtic.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtinfo.so.5" : {
+          "messages" : [
+            "Unable to find the library: libtinfo.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva-drm.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-drm.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva-glx.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-glx.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva-x11.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-x11.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libwaffle-1.so.0" : {
+          "messages" : [
+            "Unable to find the library: libwaffle-1.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libwind.so.0" : {
+          "messages" : [
+            "Unable to find the library: libwind.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libxcb-xevie.so.0" : {
+          "messages" : [
+            "Unable to find the library: libxcb-xevie.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libxcb-xprint.so.0" : {
+          "messages" : [
+            "Unable to find the library: libxcb-xprint.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        }
+      },
+      "graphics-details" : {
+        "x11/vulkan" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti",
+          "version" : "1.2.186 (device 0x10de:0x1380) (driver 495.176.0)",
+          "devices" : [
+            {
+              "name" : "NVIDIA GeForce GTX 750 Ti",
+              "api-version" : "1.2.186",
+              "driver-version" : "495.176.0",
+              "vendor-id" : "0x10de",
+              "device-id" : "0x1380",
+              "type" : "discrete-gpu"
+            }
+          ]
+        },
+        "x11/vdpau" : {
+          "renderer" : "NVIDIA VDPAU Driver Shared Library  495.44  Fri Oct 22 05:53:19 UTC 2021\n",
+          "version" : null
+        },
+        "x11/vaapi" : {
+          "messages" : [
+            "libva info: VA-API version 1.13.0",
+            "libva info: Trying to open /usr/lib32/dri/nvidia_drv_video.so",
+            "libva error: /usr/lib32/dri/nvidia_drv_video.so has no function __vaDriverInit_1_0",
+            "libva info: va_openDriver() returns -1",
+            "vaInitialize (va_display, &major_version, &minor_version) failed: unknown libva error (-1)"
+          ],
+          "renderer" : null,
+          "version" : null,
+          "issues" : [
+            "cannot-draw"
+          ],
+          "exit-status" : 1
+        },
+        "glx/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/glesv2" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "OpenGL ES 3.2 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        }
+      },
+      "dri_drivers" : [
+        {
+          "library_path" : "/usr/lib32/dri/crocus_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/i830_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/i915_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/i965_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/iris_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/kms_swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/nouveau_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/nouveau_vieux_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/r200_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/r300_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/r600_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/radeon_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/radeonsi_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/virtio_gpu_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/vmwgfx_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/zink_dri.so"
+        }
+      ],
+      "va-api_drivers" : [
+        {
+          "library_path" : "/usr/lib32/dri/i965_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/nouveau_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/nvidia_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/r600_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/radeonsi_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/s3g_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib32/dri/vdpau_drv_video.so"
+        }
+      ],
+      "vdpau_drivers" : [
+        {
+          "library_path" : "/usr/lib32/vdpau/libvdpau_nvidia.so",
+          "library_link" : "libvdpau_nvidia.so.1"
+        },
+        {
+          "library_path" : "/usr/lib32/vdpau/libvdpau_nvidia.so.1",
+          "library_link" : "libvdpau_nvidia.so.495.44"
+        },
+        {
+          "library_path" : "/usr/lib32/vdpau/libvdpau_trace.so",
+          "library_link" : "libvdpau_trace.so.1"
+        },
+        {
+          "library_path" : "/usr/lib32/vdpau/libvdpau_trace.so.1",
+          "library_link" : "libvdpau_trace.so.1.0.0"
+        }
+      ],
+      "glx_drivers" : [
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/usr/lib32/libGLX_mesa.so.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/usr/lib32/libGLX_nvidia.so.0"
+        }
+      ]
+    },
+    "x86_64-linux-gnu" : {
+      "can-run" : true,
+      "libdl-LIB" : "lib",
+      "libdl-PLATFORM" : "x86_64",
+      "runtime-linker" : {
+        "path" : "/lib64/ld-linux-x86-64.so.2",
+        "resolved" : "/usr/lib/ld-2.33.so"
+      },
+      "library-issues-summary" : [
+        "cannot-load",
+        "missing-symbols",
+        "misversioned-symbols"
+      ],
+      "library-details" : {
+        "libCg.so" : {
+          "messages" : [
+            "Unable to find the library: libCg.so: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libCgGL.so" : {
+          "messages" : [
+            "Unable to find the library: libCgGL.so: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libGLEW.so.1.6" : {
+          "messages" : [
+            "Unable to find the library: libGLEW.so.1.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libSDL2_net-2.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libSDL2_net-2.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libappindicator.so.1" : {
+          "messages" : [
+            "Unable to find the library: libappindicator.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libasn1.so.8" : {
+          "messages" : [
+            "Unable to find the library: libasn1.so.8: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavcodec.so.53" : {
+          "messages" : [
+            "Unable to find the library: libavcodec.so.53: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavfilter.so.2" : {
+          "messages" : [
+            "Unable to find the library: libavfilter.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavformat.so.53" : {
+          "messages" : [
+            "Unable to find the library: libavformat.so.53: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libavutil.so.51" : {
+          "messages" : [
+            "Unable to find the library: libavutil.so.51: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libcurl-gnutls.so.4" : {
+          "soname" : "libcurl.so.4",
+          "path" : "/usr/lib/libcurl-gnutls.so.4",
+          "issues" : [
+            "missing-symbols",
+            "misversioned-symbols"
+          ],
+          "missing-symbols" : [
+            "curl_jmpenv@CURL_GNUTLS_3"
+          ],
+          "misversioned-symbols" : [
+            "curl_easy_cleanup@CURL_GNUTLS_3",
+            "curl_easy_duphandle@CURL_GNUTLS_3",
+            "curl_easy_escape@CURL_GNUTLS_3",
+            "curl_easy_getinfo@CURL_GNUTLS_3",
+            "curl_easy_init@CURL_GNUTLS_3",
+            "curl_easy_pause@CURL_GNUTLS_3",
+            "curl_easy_perform@CURL_GNUTLS_3",
+            "curl_easy_recv@CURL_GNUTLS_3",
+            "curl_easy_reset@CURL_GNUTLS_3",
+            "curl_easy_send@CURL_GNUTLS_3",
+            "curl_easy_setopt@CURL_GNUTLS_3",
+            "curl_easy_strerror@CURL_GNUTLS_3",
+            "curl_easy_unescape@CURL_GNUTLS_3",
+            "curl_escape@CURL_GNUTLS_3",
+            "curl_formadd@CURL_GNUTLS_3",
+            "curl_formfree@CURL_GNUTLS_3",
+            "curl_formget@CURL_GNUTLS_3",
+            "curl_free@CURL_GNUTLS_3",
+            "curl_getdate@CURL_GNUTLS_3",
+            "curl_getenv@CURL_GNUTLS_3",
+            "curl_global_cleanup@CURL_GNUTLS_3",
+            "curl_global_init@CURL_GNUTLS_3",
+            "curl_global_init_mem@CURL_GNUTLS_3",
+            "curl_maprintf@CURL_GNUTLS_3",
+            "curl_mfprintf@CURL_GNUTLS_3",
+            "curl_mprintf@CURL_GNUTLS_3",
+            "curl_msnprintf@CURL_GNUTLS_3",
+            "curl_msprintf@CURL_GNUTLS_3",
+            "curl_multi_add_handle@CURL_GNUTLS_3",
+            "curl_multi_assign@CURL_GNUTLS_3",
+            "curl_multi_cleanup@CURL_GNUTLS_3",
+            "curl_multi_fdset@CURL_GNUTLS_3",
+            "curl_multi_info_read@CURL_GNUTLS_3",
+            "curl_multi_init@CURL_GNUTLS_3",
+            "curl_multi_perform@CURL_GNUTLS_3",
+            "curl_multi_remove_handle@CURL_GNUTLS_3",
+            "curl_multi_setopt@CURL_GNUTLS_3",
+            "curl_multi_socket@CURL_GNUTLS_3",
+            "curl_multi_socket_action@CURL_GNUTLS_3",
+            "curl_multi_socket_all@CURL_GNUTLS_3",
+            "curl_multi_strerror@CURL_GNUTLS_3",
+            "curl_multi_timeout@CURL_GNUTLS_3",
+            "curl_mvaprintf@CURL_GNUTLS_3",
+            "curl_mvfprintf@CURL_GNUTLS_3",
+            "curl_mvprintf@CURL_GNUTLS_3",
+            "curl_mvsnprintf@CURL_GNUTLS_3",
+            "curl_mvsprintf@CURL_GNUTLS_3",
+            "curl_share_cleanup@CURL_GNUTLS_3",
+            "curl_share_init@CURL_GNUTLS_3",
+            "curl_share_setopt@CURL_GNUTLS_3",
+            "curl_share_strerror@CURL_GNUTLS_3",
+            "curl_slist_append@CURL_GNUTLS_3",
+            "curl_slist_free_all@CURL_GNUTLS_3",
+            "curl_strequal@CURL_GNUTLS_3",
+            "curl_strnequal@CURL_GNUTLS_3",
+            "curl_unescape@CURL_GNUTLS_3",
+            "curl_version@CURL_GNUTLS_3",
+            "curl_version_info@CURL_GNUTLS_3"
+          ]
+        },
+        "libcurl.so.4" : {
+          "soname" : "libcurl.so.4",
+          "path" : "/usr/lib/steam/libcurl.so.4",
+          "issues" : [
+            "missing-symbols",
+            "misversioned-symbols"
+          ],
+          "missing-symbols" : [
+            "curl_jmpenv@CURL_OPENSSL_3"
+          ],
+          "misversioned-symbols" : [
+            "curl_easy_cleanup@CURL_OPENSSL_3",
+            "curl_easy_duphandle@CURL_OPENSSL_3",
+            "curl_easy_escape@CURL_OPENSSL_3",
+            "curl_easy_getinfo@CURL_OPENSSL_3",
+            "curl_easy_init@CURL_OPENSSL_3",
+            "curl_easy_pause@CURL_OPENSSL_3",
+            "curl_easy_perform@CURL_OPENSSL_3",
+            "curl_easy_recv@CURL_OPENSSL_3",
+            "curl_easy_reset@CURL_OPENSSL_3",
+            "curl_easy_send@CURL_OPENSSL_3",
+            "curl_easy_setopt@CURL_OPENSSL_3",
+            "curl_easy_strerror@CURL_OPENSSL_3",
+            "curl_easy_unescape@CURL_OPENSSL_3",
+            "curl_escape@CURL_OPENSSL_3",
+            "curl_formadd@CURL_OPENSSL_3",
+            "curl_formfree@CURL_OPENSSL_3",
+            "curl_formget@CURL_OPENSSL_3",
+            "curl_free@CURL_OPENSSL_3",
+            "curl_getdate@CURL_OPENSSL_3",
+            "curl_getenv@CURL_OPENSSL_3",
+            "curl_global_cleanup@CURL_OPENSSL_3",
+            "curl_global_init@CURL_OPENSSL_3",
+            "curl_global_init_mem@CURL_OPENSSL_3",
+            "curl_maprintf@CURL_OPENSSL_3",
+            "curl_mfprintf@CURL_OPENSSL_3",
+            "curl_mprintf@CURL_OPENSSL_3",
+            "curl_msnprintf@CURL_OPENSSL_3",
+            "curl_msprintf@CURL_OPENSSL_3",
+            "curl_multi_add_handle@CURL_OPENSSL_3",
+            "curl_multi_assign@CURL_OPENSSL_3",
+            "curl_multi_cleanup@CURL_OPENSSL_3",
+            "curl_multi_fdset@CURL_OPENSSL_3",
+            "curl_multi_info_read@CURL_OPENSSL_3",
+            "curl_multi_init@CURL_OPENSSL_3",
+            "curl_multi_perform@CURL_OPENSSL_3",
+            "curl_multi_remove_handle@CURL_OPENSSL_3",
+            "curl_multi_setopt@CURL_OPENSSL_3",
+            "curl_multi_socket@CURL_OPENSSL_3",
+            "curl_multi_socket_action@CURL_OPENSSL_3",
+            "curl_multi_socket_all@CURL_OPENSSL_3",
+            "curl_multi_strerror@CURL_OPENSSL_3",
+            "curl_multi_timeout@CURL_OPENSSL_3",
+            "curl_mvaprintf@CURL_OPENSSL_3",
+            "curl_mvfprintf@CURL_OPENSSL_3",
+            "curl_mvprintf@CURL_OPENSSL_3",
+            "curl_mvsnprintf@CURL_OPENSSL_3",
+            "curl_mvsprintf@CURL_OPENSSL_3",
+            "curl_share_cleanup@CURL_OPENSSL_3",
+            "curl_share_init@CURL_OPENSSL_3",
+            "curl_share_setopt@CURL_OPENSSL_3",
+            "curl_share_strerror@CURL_OPENSSL_3",
+            "curl_slist_append@CURL_OPENSSL_3",
+            "curl_slist_free_all@CURL_OPENSSL_3",
+            "curl_strequal@CURL_OPENSSL_3",
+            "curl_strnequal@CURL_OPENSSL_3",
+            "curl_unescape@CURL_OPENSSL_3",
+            "curl_version@CURL_OPENSSL_3",
+            "curl_version_info@CURL_OPENSSL_3"
+          ]
+        },
+        "libexpatw.so.1" : {
+          "messages" : [
+            "Unable to find the library: libexpatw.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libffi.so.6" : {
+          "messages" : [
+            "Unable to find the library: libffi.so.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_forms.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_forms.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_gl.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_gl.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libfltk_images.so.1.1" : {
+          "messages" : [
+            "Unable to find the library: libfltk_images.so.1.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libform.so.5" : {
+          "soname" : "libformw.so.5",
+          "path" : "/usr/lib/libform.so.5"
+        },
+        "libgconf-2.so.4" : {
+          "messages" : [
+            "Unable to find the library: libgconf-2.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgdk_pixbuf_xlib-2.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgdk_pixbuf_xlib-2.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgnutls-extra.so.26" : {
+          "messages" : [
+            "Unable to find the library: libgnutls-extra.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgnutls.so.26" : {
+          "messages" : [
+            "Unable to find the library: libgnutls.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgssapi.so.3" : {
+          "messages" : [
+            "Unable to find the library: libgssapi.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstapp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstapp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstaudio-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstaudio-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstbase-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstbase-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcdda-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcdda-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcheck-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcheck-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstcontroller-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstcontroller-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstdataprotocol-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstdataprotocol-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstfft-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstfft-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstinterfaces-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstinterfaces-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstnet-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstnet-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstnetbuffer-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstnetbuffer-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstpbutils-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstpbutils-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstreamer-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstreamer-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstriff-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstriff-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstrtp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstrtp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstrtsp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstrtsp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstsdp-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstsdp-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgsttag-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgsttag-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libgstvideo-0.10.so.0" : {
+          "messages" : [
+            "Unable to find the library: libgstvideo-0.10.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhcrypto.so.4" : {
+          "messages" : [
+            "Unable to find the library: libhcrypto.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libheimbase.so.1" : {
+          "messages" : [
+            "Unable to find the library: libheimbase.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libheimntlm.so.0" : {
+          "messages" : [
+            "Unable to find the library: libheimntlm.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhogweed.so.4" : {
+          "messages" : [
+            "Unable to find the library: libhogweed.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libhx509.so.5" : {
+          "messages" : [
+            "Unable to find the library: libhx509.so.5: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libjson.so.0" : {
+          "messages" : [
+            "Unable to find the library: libjson.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libkrb5.so.26" : {
+          "messages" : [
+            "Unable to find the library: libkrb5.so.26: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libmenu.so.5" : {
+          "soname" : "libmenuw.so.5",
+          "path" : "/usr/lib/libmenu.so.5"
+        },
+        "libmikmod.so.2" : {
+          "messages" : [
+            "Unable to find the library: libmikmod.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libncurses.so.5" : {
+          "soname" : "libncursesw.so.5",
+          "path" : "/usr/lib/libncurses.so.5"
+        },
+        "libnettle.so.6" : {
+          "messages" : [
+            "Unable to find the library: libnettle.so.6: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnm-glib.so.4" : {
+          "messages" : [
+            "Unable to find the library: libnm-glib.so.4: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libnm-util.so.2" : {
+          "messages" : [
+            "Unable to find the library: libnm-util.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpanel.so.5" : {
+          "soname" : "libpanelw.so.5",
+          "path" : "/usr/lib/libpanel.so.5"
+        },
+        "libpangox-1.0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libpangox-1.0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpcre.so.3" : {
+          "messages" : [
+            "Unable to find the library: libpcre.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libpcreposix.so.3" : {
+          "messages" : [
+            "Unable to find the library: libpcreposix.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libroken.so.18" : {
+          "messages" : [
+            "Unable to find the library: libroken.so.18: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libsasl2.so.2" : {
+          "messages" : [
+            "Unable to find the library: libsasl2.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libselinux.so.1" : {
+          "messages" : [
+            "Unable to find the library: libselinux.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libsteam-runtime-tools-0.so.0" : {
+          "messages" : [
+            "Unable to find the library: libsteam-runtime-tools-0.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libswscale.so.2" : {
+          "messages" : [
+            "Unable to find the library: libswscale.so.2: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtasn1.so.3" : {
+          "messages" : [
+            "Unable to find the library: libtasn1.so.3: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libtic.so.5" : {
+          "soname" : "libncursesw.so.5",
+          "path" : "/usr/lib/libtic.so.5"
+        },
+        "libtinfo.so.5" : {
+          "soname" : "libncursesw.so.5",
+          "path" : "/usr/lib/libtinfo.so.5"
+        },
+        "libva-drm.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-drm.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva-glx.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-glx.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva-x11.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva-x11.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libva.so.1" : {
+          "messages" : [
+            "Unable to find the library: libva.so.1: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libwaffle-1.so.0" : {
+          "messages" : [
+            "Unable to find the library: libwaffle-1.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libwind.so.0" : {
+          "messages" : [
+            "Unable to find the library: libwind.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libxcb-xevie.so.0" : {
+          "messages" : [
+            "Unable to find the library: libxcb-xevie.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        },
+        "libxcb-xprint.so.0" : {
+          "messages" : [
+            "Unable to find the library: libxcb-xprint.so.0: cannot open shared object file: No such file or directory"
+          ],
+          "soname" : null,
+          "path" : null,
+          "issues" : [
+            "cannot-load"
+          ],
+          "exit-status" : 1
+        }
+      },
+      "graphics-details" : {
+        "x11/vulkan" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti",
+          "version" : "1.2.186 (device 0x10de:0x1380) (driver 495.176.0)",
+          "devices" : [
+            {
+              "name" : "NVIDIA GeForce GTX 750 Ti",
+              "api-version" : "1.2.186",
+              "driver-version" : "495.176.0",
+              "vendor-id" : "0x10de",
+              "device-id" : "0x1380",
+              "type" : "discrete-gpu"
+            }
+          ]
+        },
+        "x11/vdpau" : {
+          "renderer" : "NVIDIA VDPAU Driver Shared Library  495.44  Fri Oct 22 06:03:50 UTC 2021\n",
+          "version" : null
+        },
+        "x11/vaapi" : {
+          "messages" : [
+            "vaCreateSurfaces (va_display, VA_RT_FORMAT_YUV420, width, height, surfaces, surfaces_count, &attr, 1) failed: attribute not supported (10)",
+            "x86_64-linux-gnu-check-va-api: vdpau_video.c:325: vdpau_DestroySurfaces: Assertion `obj_surface' failed.",
+            "timeout: the monitored command dumped core"
+          ],
+          "renderer" : null,
+          "version" : null,
+          "issues" : [
+            "cannot-draw"
+          ],
+          "exit-status" : -1,
+          "terminating-signal" : 6,
+          "terminating-signal-name" : "Aborted"
+        },
+        "glx/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/glesv2" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "OpenGL ES 3.2 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        }
+      },
+      "dri_drivers" : [
+        {
+          "library_path" : "/usr/lib/dri/crocus_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/i830_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/i915_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/i965_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/iris_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/kms_swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/nouveau_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/nouveau_vieux_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/r200_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/r300_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/r600_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/radeon_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/radeonsi_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/virtio_gpu_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/vmwgfx_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/zink_dri.so"
+        }
+      ],
+      "va-api_drivers" : [
+        {
+          "library_path" : "/usr/lib/dri/i965_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/nouveau_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/nvidia_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/r600_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/radeonsi_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/s3g_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/dri/vdpau_drv_video.so"
+        }
+      ],
+      "vdpau_drivers" : [
+        {
+          "library_path" : "/usr/lib/vdpau/libvdpau_nvidia.so",
+          "library_link" : "libvdpau_nvidia.so.1"
+        },
+        {
+          "library_path" : "/usr/lib/vdpau/libvdpau_nvidia.so.1",
+          "library_link" : "libvdpau_nvidia.so.495.44"
+        },
+        {
+          "library_path" : "/usr/lib/vdpau/libvdpau_trace.so",
+          "library_link" : "libvdpau_trace.so.1"
+        },
+        {
+          "library_path" : "/usr/lib/vdpau/libvdpau_trace.so.1",
+          "library_link" : "libvdpau_trace.so.1.0.0"
+        }
+      ],
+      "glx_drivers" : [
+        {
+          "library_soname" : "libGLX_indirect.so.0",
+          "library_path" : "/usr/lib/libGLX_mesa.so.0.0.0"
+        },
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/usr/lib/libGLX_mesa.so.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/usr/lib/libGLX_nvidia.so.0"
+        }
+      ]
+    }
+  },
+  "locale-issues" : [
+    "c-utf8-missing",
+    "i18n-supported-missing"
+  ],
+  "locales" : {
+    "<default>" : {
+      "resulting-name" : "LC_CTYPE=en_US.utf8;LC_NUMERIC=en_US.UTF-8;LC_TIME=en_US.UTF-8;LC_COLLATE=en_US.utf8;LC_MONETARY=en_US.UTF-8;LC_MESSAGES=en_US.utf8;LC_PAPER=en_US.UTF-8;LC_NAME=en_US.UTF-8;LC_ADDRESS=en_US.UTF-8;LC_TELEPHONE=en_US.UTF-8;LC_MEASUREMENT=en_US.UTF-8;LC_IDENTIFICATION=en_US.UTF-8",
+      "charset" : "UTF-8",
+      "is_utf8" : true
+    },
+    "C" : {
+      "resulting-name" : "C",
+      "charset" : "ANSI_X3.4-1968",
+      "is_utf8" : false
+    },
+    "C.UTF-8" : {
+      "error-domain" : "srt-locale-error-quark",
+      "error-code" : 0,
+      "error" : "No such file or directory"
+    },
+    "en_US.UTF-8" : {
+      "resulting-name" : "en_US.UTF-8",
+      "charset" : "UTF-8",
+      "is_utf8" : true
+    }
+  },
+  "egl" : {
+    "icds" : [
+      {
+        "json_path" : "/usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "library_path" : "libEGL_nvidia.so.0",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/share/glvnd/egl_vendor.d/50_mesa.json",
+        "library_path" : "libEGL_mesa.so.0",
+        "issues" : [
+        ]
+      }
+    ]
+  },
+  "vulkan" : {
+    "icds" : [
+      {
+        "json_path" : "/usr/share/vulkan/icd.d/nvidia_icd.json",
+        "library_path" : "libGLX_nvidia.so.0",
+        "api_version" : "1.2.186",
+        "issues" : [
+        ]
+      }
+    ],
+    "explicit_layers" : [
+    ],
+    "implicit_layers" : [
+      {
+        "json_path" : "/usr/share/vulkan/implicit_layer.d/nvidia_layers.json",
+        "name" : "VK_LAYER_NV_optimus",
+        "description" : "NVIDIA Optimus layer",
+        "type" : "INSTANCE",
+        "api_version" : "1.2.186",
+        "implementation_version" : "1",
+        "library_path" : "libGLX_nvidia.so.0",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/home/sieve/.local/share/vulkan/implicit_layer.d/steamfossilize_i386.json",
+        "name" : "VK_LAYER_VALVE_steam_fossilize_32",
+        "description" : "Steam Pipeline Caching Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/home/sieve/.local/share/Steam/ubuntu12_32/libVkLayer_steam_fossilize.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/home/sieve/.local/share/vulkan/implicit_layer.d/steamfossilize_x86_64.json",
+        "name" : "VK_LAYER_VALVE_steam_fossilize_64",
+        "description" : "Steam Pipeline Caching Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/home/sieve/.local/share/Steam/ubuntu12_64/libVkLayer_steam_fossilize.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/home/sieve/.local/share/vulkan/implicit_layer.d/steamoverlay_i386.json",
+        "name" : "VK_LAYER_VALVE_steam_overlay_32",
+        "description" : "Steam Overlay Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/home/sieve/.local/share/Steam/ubuntu12_32/steamoverlayvulkanlayer.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/home/sieve/.local/share/vulkan/implicit_layer.d/steamoverlay_x86_64.json",
+        "name" : "VK_LAYER_VALVE_steam_overlay_64",
+        "description" : "Steam Overlay Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/home/sieve/.local/share/Steam/ubuntu12_64/steamoverlayvulkanlayer.so",
+        "issues" : [
+        ]
+      }
+    ]
+  },
+  "desktop-entries" : [
+    {
+      "id" : "steam-native.desktop",
+      "commandline" : "/usr/bin/steam-native %U",
+      "filename" : "/usr/share/applications/steam-native.desktop",
+      "default_steam_uri_handler" : true,
+      "steam_uri_handler" : true
+    },
+    {
+      "id" : "steam.desktop",
+      "commandline" : "/usr/bin/steam-runtime %U",
+      "filename" : "/usr/share/applications/steam.desktop",
+      "default_steam_uri_handler" : false,
+      "steam_uri_handler" : true
+    }
+  ],
+  "xdg-portals" : {
+    "details" : {
+      "interfaces" : {
+        "org.freedesktop.portal.OpenURI" : {
+          "available" : true,
+          "version" : 3
+        },
+        "org.freedesktop.portal.Email" : {
+          "available" : true,
+          "version" : 3
+        }
+      },
+      "backends" : {
+        "org.freedesktop.impl.portal.desktop.gtk" : {
+          "available" : true
+        },
+        "org.freedesktop.impl.portal.desktop.kde" : {
+          "available" : false
+        }
+      }
+    },
+    "issues" : [
+    ]
+  },
+  "cpu-features" : {
+    "x86-64" : true,
+    "sse3" : true,
+    "cmpxchg16b" : true
+  }
+}
+
+"scout runtime container" is not installed.
+
+"soldier runtime container" information:
+{
+  "can-write-uinput" : true,
+  "steam-installation" : {
+    "path" : "/home/sieve/.local/share/Steam",
+    "data_path" : "/home/sieve/.local/share/Steam",
+    "bin32_path" : "/home/sieve/.local/share/Steam/ubuntu12_32",
+    "steamscript_path" : "/usr/lib/steam/steam",
+    "steamscript_version" : "1.0.0.73",
+    "issues" : [
+      "missing-steam-uri-handler",
+      "unexpected-steam-uri-handler"
+    ]
+  },
+  "runtime" : {
+    "path" : "/",
+    "version" : "0.20211013.0",
+    "issues" : [
+    ],
+    "overrides" : {
+      "list" : [
+        "overrides/lib/",
+        "overrides/lib/i386-linux-gnu/",
+        "overrides/lib/i386-linux-gnu/aliases/",
+        "overrides/lib/i386-linux-gnu/aliases/libOSMesa.so.6 -> /usr/lib/i386-linux-gnu/libOSMesa.so.8",
+        "overrides/lib/i386-linux-gnu/aliases/libXaw7.so.7 -> /usr/lib/i386-linux-gnu/libXaw.so.7",
+        "overrides/lib/i386-linux-gnu/aliases/libbz2.so.1 -> /usr/lib/i386-linux-gnu/libbz2.so.1.0",
+        "overrides/lib/i386-linux-gnu/aliases/libcurl-gnutls.so.3 -> /usr/lib/i386-linux-gnu/libcurl-gnutls.so.4",
+        "overrides/lib/i386-linux-gnu/dri/",
+        "overrides/lib/i386-linux-gnu/dri/crocus_dri.so -> /run/host/usr/lib32/dri/crocus_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/i830_dri.so -> /run/host/usr/lib32/dri/i830_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/i915_dri.so -> /run/host/usr/lib32/dri/i915_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/i965_dri.so -> /run/host/usr/lib32/dri/i965_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/i965_drv_video.so -> /run/host/usr/lib32/dri/i965_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/iris_dri.so -> /run/host/usr/lib32/dri/iris_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/kms_swrast_dri.so -> /run/host/usr/lib32/dri/kms_swrast_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/nouveau_dri.so -> /run/host/usr/lib32/dri/nouveau_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/nouveau_drv_video.so -> /run/host/usr/lib32/dri/nouveau_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/nouveau_vieux_dri.so -> /run/host/usr/lib32/dri/nouveau_vieux_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/nvidia_drv_video.so -> /run/host/usr/lib32/dri/vdpau_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/r200_dri.so -> /run/host/usr/lib32/dri/r200_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/r300_dri.so -> /run/host/usr/lib32/dri/r300_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/r600_dri.so -> /run/host/usr/lib32/dri/r600_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/r600_drv_video.so -> /run/host/usr/lib32/dri/r600_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/radeon_dri.so -> /run/host/usr/lib32/dri/radeon_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/radeonsi_dri.so -> /run/host/usr/lib32/dri/radeonsi_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/radeonsi_drv_video.so -> /run/host/usr/lib32/dri/radeonsi_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/s3g_drv_video.so -> /run/host/usr/lib32/dri/vdpau_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/swrast_dri.so -> /run/host/usr/lib32/dri/swrast_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/vdpau_drv_video.so -> /run/host/usr/lib32/dri/vdpau_drv_video.so",
+        "overrides/lib/i386-linux-gnu/dri/virtio_gpu_dri.so -> /run/host/usr/lib32/dri/virtio_gpu_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/vmwgfx_dri.so -> /run/host/usr/lib32/dri/vmwgfx_dri.so",
+        "overrides/lib/i386-linux-gnu/dri/zink_dri.so -> /run/host/usr/lib32/dri/zink_dri.so",
+        "overrides/lib/i386-linux-gnu/libBrokenLocale.so.1 -> /run/host/usr/lib32/libBrokenLocale-2.33.so",
+        "overrides/lib/i386-linux-gnu/libEGL.so.1 -> /run/host/usr/lib32/libEGL.so.1.1.0",
+        "overrides/lib/i386-linux-gnu/libEGL_mesa.so.0 -> /run/host/usr/lib32/libEGL_mesa.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libEGL_nvidia.so.0 -> /run/host/usr/lib32/libEGL_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/libGL.so.1 -> /run/host/usr/lib32/libGL.so.1.7.0",
+        "overrides/lib/i386-linux-gnu/libGLESv1_CM_nvidia.so.1 -> /run/host/usr/lib32/libGLESv1_CM_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/libGLESv2.so.2 -> /run/host/usr/lib32/libGLESv2.so.2.1.0",
+        "overrides/lib/i386-linux-gnu/libGLESv2_nvidia.so.2 -> /run/host/usr/lib32/libGLESv2_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/libGLX.so.0 -> /run/host/usr/lib32/libGLX.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libGLX_mesa.so.0 -> /run/host/usr/lib32/libGLX_mesa.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libGLX_nvidia.so.0 -> /run/host/usr/lib32/libGLX_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/libGLdispatch.so.0 -> /run/host/usr/lib32/libGLdispatch.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libLLVM-13.so -> /run/host/usr/lib32/libLLVM-13.so",
+        "overrides/lib/i386-linux-gnu/libOpenCL.so.1 -> /run/host/usr/lib32/libOpenCL.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libOpenGL.so.0 -> /run/host/usr/lib32/libOpenGL.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libX11-xcb.so.1 -> /run/host/usr/lib32/libX11-xcb.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libX11.so.6 -> /run/host/usr/lib32/libX11.so.6.4.0",
+        "overrides/lib/i386-linux-gnu/libXau.so.6 -> /run/host/usr/lib32/libXau.so.6.0.0",
+        "overrides/lib/i386-linux-gnu/libXdmcp.so.6 -> /run/host/usr/lib32/libXdmcp.so.6.0.0",
+        "overrides/lib/i386-linux-gnu/libXext.so.6 -> /run/host/usr/lib32/libXext.so.6.4.0",
+        "overrides/lib/i386-linux-gnu/libXfixes.so.3 -> /run/host/usr/lib32/libXfixes.so.3.1.0",
+        "overrides/lib/i386-linux-gnu/libXxf86vm.so.1 -> /run/host/usr/lib32/libXxf86vm.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libanl.so.1 -> /run/host/usr/lib32/libanl-2.33.so",
+        "overrides/lib/i386-linux-gnu/libc.so.6 -> /run/host/usr/lib32/libc-2.33.so",
+        "overrides/lib/i386-linux-gnu/libcrypt.so.1 -> /run/host/usr/lib32/libcrypt-2.33.so",
+        "overrides/lib/i386-linux-gnu/libcuda.so.1 -> /run/host/usr/lib32/libcuda.so.495.44",
+        "overrides/lib/i386-linux-gnu/libdl.so.2 -> /run/host/usr/lib32/libdl-2.33.so",
+        "overrides/lib/i386-linux-gnu/libdrm.so.2 -> /run/host/usr/lib32/libdrm.so.2.4.0",
+        "overrides/lib/i386-linux-gnu/libdrm_amdgpu.so.1 -> /run/host/usr/lib32/libdrm_amdgpu.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libdrm_intel.so.1 -> /run/host/usr/lib32/libdrm_intel.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libdrm_nouveau.so.2 -> /run/host/usr/lib32/libdrm_nouveau.so.2.0.0",
+        "overrides/lib/i386-linux-gnu/libdrm_radeon.so.1 -> /run/host/usr/lib32/libdrm_radeon.so.1.0.1",
+        "overrides/lib/i386-linux-gnu/libelf.so.1 -> /run/host/usr/lib32/libelf-0.185.so",
+        "overrides/lib/i386-linux-gnu/libexpat.so.1 -> /run/host/usr/lib32/libexpat.so.1.8.1",
+        "overrides/lib/i386-linux-gnu/libffi.so.8 -> /run/host/usr/lib32/libffi.so.8.1.0",
+        "overrides/lib/i386-linux-gnu/libgbm.so.1 -> /run/host/usr/lib32/libgbm.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libgcc_s.so.1 -> /run/host/usr/lib32/libgcc_s.so.1",
+        "overrides/lib/i386-linux-gnu/libglapi.so.0 -> /run/host/usr/lib32/libglapi.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libicudata.so.69 -> /run/host/usr/lib32/libicudata.so.69.1",
+        "overrides/lib/i386-linux-gnu/libicuuc.so.69 -> /run/host/usr/lib32/libicuuc.so.69.1",
+        "overrides/lib/i386-linux-gnu/libidn2.so.0 -> /run/host/usr/lib32/libidn2.so.0.3.7",
+        "overrides/lib/i386-linux-gnu/liblzma.so.5 -> /run/host/usr/lib32/liblzma.so.5.2.5",
+        "overrides/lib/i386-linux-gnu/libm.so.6 -> /run/host/usr/lib32/libm-2.33.so",
+        "overrides/lib/i386-linux-gnu/libmemusage.so -> /run/host/usr/lib32/libmemusage.so",
+        "overrides/lib/i386-linux-gnu/libncursesw.so.6 -> /run/host/usr/lib32/libncursesw.so.6.3",
+        "overrides/lib/i386-linux-gnu/libnsl.so.1 -> /run/host/usr/lib32/libnsl-2.33.so",
+        "overrides/lib/i386-linux-gnu/libnss_compat.so.2 -> /run/host/usr/lib32/libnss_compat-2.33.so",
+        "overrides/lib/i386-linux-gnu/libnss_db.so.2 -> /run/host/usr/lib32/libnss_db-2.33.so",
+        "overrides/lib/i386-linux-gnu/libnss_dns.so.2 -> /run/host/usr/lib32/libnss_dns-2.33.so",
+        "overrides/lib/i386-linux-gnu/libnss_files.so.2 -> /run/host/usr/lib32/libnss_files-2.33.so",
+        "overrides/lib/i386-linux-gnu/libnvcuvid.so.1 -> /run/host/usr/lib32/libnvcuvid.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-eglcore.so.495.44 -> /run/host/usr/lib32/libnvidia-eglcore.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-encode.so.1 -> /run/host/usr/lib32/libnvidia-encode.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-fbc.so.1 -> /run/host/usr/lib32/libnvidia-fbc.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-glcore.so.495.44 -> /run/host/usr/lib32/libnvidia-glcore.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-glsi.so.495.44 -> /run/host/usr/lib32/libnvidia-glsi.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-glvkspirv.so.495.44 -> /run/host/usr/lib32/libnvidia-glvkspirv.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-ml.so.1 -> /run/host/usr/lib32/libnvidia-ml.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-opticalflow.so.1 -> /run/host/usr/lib32/libnvidia-opticalflow.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-ptxjitcompiler.so.1 -> /run/host/usr/lib32/libnvidia-ptxjitcompiler.so.495.44",
+        "overrides/lib/i386-linux-gnu/libnvidia-tls.so.495.44 -> /run/host/usr/lib32/libnvidia-tls.so.495.44",
+        "overrides/lib/i386-linux-gnu/libpciaccess.so.0 -> /run/host/usr/lib32/libpciaccess.so.0.11.1",
+        "overrides/lib/i386-linux-gnu/libpcprofile.so -> /run/host/usr/lib32/libpcprofile.so",
+        "overrides/lib/i386-linux-gnu/libpthread.so.0 -> /run/host/usr/lib32/libpthread-2.33.so",
+        "overrides/lib/i386-linux-gnu/libresolv.so.2 -> /run/host/usr/lib32/libresolv-2.33.so",
+        "overrides/lib/i386-linux-gnu/librt.so.1 -> /run/host/usr/lib32/librt-2.33.so",
+        "overrides/lib/i386-linux-gnu/libsensors.so.5 -> /run/host/usr/lib32/libsensors.so.5.0.0",
+        "overrides/lib/i386-linux-gnu/libstdc++.so.6 -> /run/host/usr/lib32/libstdc++.so.6.0.29",
+        "overrides/lib/i386-linux-gnu/libthread_db.so.1 -> /run/host/usr/lib32/libthread_db-1.0.so",
+        "overrides/lib/i386-linux-gnu/libunistring.so.2 -> /run/host/usr/lib32/libunistring.so.2.1.0",
+        "overrides/lib/i386-linux-gnu/libutil.so.1 -> /run/host/usr/lib32/libutil-2.33.so",
+        "overrides/lib/i386-linux-gnu/libva-drm.so.2 -> /run/host/usr/lib32/libva-drm.so.2.1300.0",
+        "overrides/lib/i386-linux-gnu/libva-glx.so.2 -> /run/host/usr/lib32/libva-glx.so.2.1300.0",
+        "overrides/lib/i386-linux-gnu/libva-x11.so.2 -> /run/host/usr/lib32/libva-x11.so.2.1300.0",
+        "overrides/lib/i386-linux-gnu/libva.so.2 -> /run/host/usr/lib32/libva.so.2.1300.0",
+        "overrides/lib/i386-linux-gnu/libvdpau.so.1 -> /run/host/usr/lib32/libvdpau.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libvulkan.so.1 -> /run/host/usr/lib32/libvulkan.so.1.2.194",
+        "overrides/lib/i386-linux-gnu/libwayland-client.so.0 -> /run/host/usr/lib32/libwayland-client.so.0.3.0",
+        "overrides/lib/i386-linux-gnu/libwayland-server.so.0 -> /run/host/usr/lib32/libwayland-server.so.0.1.0",
+        "overrides/lib/i386-linux-gnu/libxcb-dri2.so.0 -> /run/host/usr/lib32/libxcb-dri2.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-dri3.so.0 -> /run/host/usr/lib32/libxcb-dri3.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-glx.so.0 -> /run/host/usr/lib32/libxcb-glx.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-present.so.0 -> /run/host/usr/lib32/libxcb-present.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-shm.so.0 -> /run/host/usr/lib32/libxcb-shm.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-sync.so.1 -> /run/host/usr/lib32/libxcb-sync.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb-xfixes.so.0 -> /run/host/usr/lib32/libxcb-xfixes.so.0.0.0",
+        "overrides/lib/i386-linux-gnu/libxcb.so.1 -> /run/host/usr/lib32/libxcb.so.1.1.0",
+        "overrides/lib/i386-linux-gnu/libxml2.so.2 -> /run/host/usr/lib32/libxml2.so.2.9.12",
+        "overrides/lib/i386-linux-gnu/libxshmfence.so.1 -> /run/host/usr/lib32/libxshmfence.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/libz.so.1 -> /run/host/usr/lib32/libz.so.1.2.11",
+        "overrides/lib/i386-linux-gnu/libzstd.so.1 -> /run/host/usr/lib32/libzstd.so.1.5.0",
+        "overrides/lib/i386-linux-gnu/vdpau/",
+        "overrides/lib/i386-linux-gnu/vdpau/libvdpau_nvidia.so -> /run/host/usr/lib32/vdpau/libvdpau_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/vdpau/libvdpau_nvidia.so.1 -> /run/host/usr/lib32/vdpau/libvdpau_nvidia.so.495.44",
+        "overrides/lib/i386-linux-gnu/vdpau/libvdpau_trace.so -> /run/host/usr/lib32/vdpau/libvdpau_trace.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/vdpau/libvdpau_trace.so.1 -> /run/host/usr/lib32/vdpau/libvdpau_trace.so.1.0.0",
+        "overrides/lib/i386-linux-gnu/vulkan_imp_layer/",
+        "overrides/lib/i386-linux-gnu/vulkan_imp_layer/libVkLayer_steam_fossilize.so -> $HOME/.local/share/Steam/ubuntu12_32/libVkLayer_steam_fossilize.so",
+        "overrides/lib/i386-linux-gnu/vulkan_imp_layer/steamoverlayvulkanlayer.so -> $HOME/.local/share/Steam/ubuntu12_32/steamoverlayvulkanlayer.so",
+        "overrides/lib/platform-haswell -> x86_64-linux-gnu",
+        "overrides/lib/platform-i386 -> i386-linux-gnu",
+        "overrides/lib/platform-i486 -> i386-linux-gnu",
+        "overrides/lib/platform-i586 -> i386-linux-gnu",
+        "overrides/lib/platform-i686 -> i386-linux-gnu",
+        "overrides/lib/platform-x86_64 -> x86_64-linux-gnu",
+        "overrides/lib/platform-xeon_phi -> x86_64-linux-gnu",
+        "overrides/lib/x86_64-linux-gnu/",
+        "overrides/lib/x86_64-linux-gnu/aliases/",
+        "overrides/lib/x86_64-linux-gnu/aliases/libOSMesa.so.6 -> /usr/lib/x86_64-linux-gnu/libOSMesa.so.8",
+        "overrides/lib/x86_64-linux-gnu/aliases/libXaw7.so.7 -> /usr/lib/x86_64-linux-gnu/libXaw.so.7",
+        "overrides/lib/x86_64-linux-gnu/aliases/libbz2.so.1 -> /usr/lib/x86_64-linux-gnu/libbz2.so.1.0",
+        "overrides/lib/x86_64-linux-gnu/aliases/libcurl-gnutls.so.3 -> /usr/lib/x86_64-linux-gnu/libcurl-gnutls.so.4",
+        "overrides/lib/x86_64-linux-gnu/dri/",
+        "overrides/lib/x86_64-linux-gnu/dri/crocus_dri.so -> /run/host/usr/lib/dri/crocus_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/i830_dri.so -> /run/host/usr/lib/dri/i830_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/i915_dri.so -> /run/host/usr/lib/dri/i915_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/i965_dri.so -> /run/host/usr/lib/dri/i965_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/i965_drv_video.so -> /run/host/usr/lib/dri/i965_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/iris_dri.so -> /run/host/usr/lib/dri/iris_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/kms_swrast_dri.so -> /run/host/usr/lib/dri/kms_swrast_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/nouveau_dri.so -> /run/host/usr/lib/dri/nouveau_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/nouveau_drv_video.so -> /run/host/usr/lib/dri/nouveau_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/nouveau_vieux_dri.so -> /run/host/usr/lib/dri/nouveau_vieux_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so -> /run/host/usr/lib/dri/vdpau_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/r200_dri.so -> /run/host/usr/lib/dri/r200_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/r300_dri.so -> /run/host/usr/lib/dri/r300_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/r600_dri.so -> /run/host/usr/lib/dri/r600_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/r600_drv_video.so -> /run/host/usr/lib/dri/r600_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/radeon_dri.so -> /run/host/usr/lib/dri/radeon_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/radeonsi_dri.so -> /run/host/usr/lib/dri/radeonsi_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/radeonsi_drv_video.so -> /run/host/usr/lib/dri/radeonsi_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/s3g_drv_video.so -> /run/host/usr/lib/dri/vdpau_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/swrast_dri.so -> /run/host/usr/lib/dri/swrast_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/vdpau_drv_video.so -> /run/host/usr/lib/dri/vdpau_drv_video.so",
+        "overrides/lib/x86_64-linux-gnu/dri/virtio_gpu_dri.so -> /run/host/usr/lib/dri/virtio_gpu_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so -> /run/host/usr/lib/dri/vmwgfx_dri.so",
+        "overrides/lib/x86_64-linux-gnu/dri/zink_dri.so -> /run/host/usr/lib/dri/zink_dri.so",
+        "overrides/lib/x86_64-linux-gnu/libBrokenLocale.so.1 -> /run/host/usr/lib/libBrokenLocale-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libEGL.so.1 -> /run/host/usr/lib/libEGL.so.1.1.0",
+        "overrides/lib/x86_64-linux-gnu/libEGL_mesa.so.0 -> /run/host/usr/lib/libEGL_mesa.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libEGL_nvidia.so.0 -> /run/host/usr/lib/libEGL_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libGL.so.1 -> /run/host/usr/lib/libGL.so.1.7.0",
+        "overrides/lib/x86_64-linux-gnu/libGLESv1_CM_nvidia.so.1 -> /run/host/usr/lib/libGLESv1_CM_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libGLESv2.so.2 -> /run/host/usr/lib/libGLESv2.so.2.1.0",
+        "overrides/lib/x86_64-linux-gnu/libGLESv2_nvidia.so.2 -> /run/host/usr/lib/libGLESv2_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libGLX.so.0 -> /run/host/usr/lib/libGLX.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libGLX_indirect.so.0 -> /run/host/usr/lib/libGLX_mesa.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libGLX_mesa.so.0 -> /run/host/usr/lib/libGLX_mesa.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libGLX_nvidia.so.0 -> /run/host/usr/lib/libGLX_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libGLdispatch.so.0 -> /run/host/usr/lib/libGLdispatch.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libLLVM-13.so -> /run/host/usr/lib/libLLVM-13.so",
+        "overrides/lib/x86_64-linux-gnu/libOpenCL.so.1 -> /run/host/usr/lib/libOpenCL.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libOpenGL.so.0 -> /run/host/usr/lib/libOpenGL.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libX11-xcb.so.1 -> /run/host/usr/lib/libX11-xcb.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libX11.so.6 -> /run/host/usr/lib/libX11.so.6.4.0",
+        "overrides/lib/x86_64-linux-gnu/libXau.so.6 -> /run/host/usr/lib/libXau.so.6.0.0",
+        "overrides/lib/x86_64-linux-gnu/libXdmcp.so.6 -> /run/host/usr/lib/libXdmcp.so.6.0.0",
+        "overrides/lib/x86_64-linux-gnu/libXext.so.6 -> /run/host/usr/lib/libXext.so.6.4.0",
+        "overrides/lib/x86_64-linux-gnu/libXfixes.so.3 -> /run/host/usr/lib/libXfixes.so.3.1.0",
+        "overrides/lib/x86_64-linux-gnu/libXxf86vm.so.1 -> /run/host/usr/lib/libXxf86vm.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libanl.so.1 -> /run/host/usr/lib/libanl-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libc.so.6 -> /run/host/usr/lib/libc-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libcrypt.so.1 -> /run/host/usr/lib/libcrypt-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libcuda.so.1 -> /run/host/usr/lib/libcuda.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libdl.so.2 -> /run/host/usr/lib/libdl-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libdrm.so.2 -> /run/host/usr/lib/libdrm.so.2.4.0",
+        "overrides/lib/x86_64-linux-gnu/libdrm_amdgpu.so.1 -> /run/host/usr/lib/libdrm_amdgpu.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libdrm_intel.so.1 -> /run/host/usr/lib/libdrm_intel.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libdrm_nouveau.so.2 -> /run/host/usr/lib/libdrm_nouveau.so.2.0.0",
+        "overrides/lib/x86_64-linux-gnu/libdrm_radeon.so.1 -> /run/host/usr/lib/libdrm_radeon.so.1.0.1",
+        "overrides/lib/x86_64-linux-gnu/libedit.so.0 -> /run/host/usr/lib/libedit.so.0.0.68",
+        "overrides/lib/x86_64-linux-gnu/libelf.so.1 -> /run/host/usr/lib/libelf-0.185.so",
+        "overrides/lib/x86_64-linux-gnu/libexpat.so.1 -> /run/host/usr/lib/libexpat.so.1.8.1",
+        "overrides/lib/x86_64-linux-gnu/libffi.so.8 -> /run/host/usr/lib/libffi.so.8.1.0",
+        "overrides/lib/x86_64-linux-gnu/libgbm.so.1 -> /run/host/usr/lib/libgbm.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libgcc_s.so.1 -> /run/host/usr/lib/libgcc_s.so.1",
+        "overrides/lib/x86_64-linux-gnu/libglapi.so.0 -> /run/host/usr/lib/libglapi.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libicudata.so.69 -> /run/host/usr/lib/libicudata.so.69.1",
+        "overrides/lib/x86_64-linux-gnu/libicuuc.so.69 -> /run/host/usr/lib/libicuuc.so.69.1",
+        "overrides/lib/x86_64-linux-gnu/libidn2.so.0 -> /run/host/usr/lib/libidn2.so.0.3.7",
+        "overrides/lib/x86_64-linux-gnu/liblzma.so.5 -> /run/host/usr/lib/liblzma.so.5.2.5",
+        "overrides/lib/x86_64-linux-gnu/libm.so.6 -> /run/host/usr/lib/libm-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libmemusage.so -> /run/host/usr/lib/libmemusage.so",
+        "overrides/lib/x86_64-linux-gnu/libmvec.so.1 -> /run/host/usr/lib/libmvec-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libncursesw.so.6 -> /run/host/usr/lib/libncursesw.so.6.3",
+        "overrides/lib/x86_64-linux-gnu/libnsl.so.1 -> /run/host/usr/lib/libnsl-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libnss_compat.so.2 -> /run/host/usr/lib/libnss_compat-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libnss_db.so.2 -> /run/host/usr/lib/libnss_db-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libnss_dns.so.2 -> /run/host/usr/lib/libnss_dns-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libnss_files.so.2 -> /run/host/usr/lib/libnss_files-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libnvcuvid.so.1 -> /run/host/usr/lib/libnvcuvid.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-cfg.so.1 -> /run/host/usr/lib/libnvidia-cfg.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-egl-wayland.so.1 -> /run/host/usr/lib/libnvidia-egl-wayland.so.1.1.9",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-eglcore.so.495.44 -> /run/host/usr/lib/libnvidia-eglcore.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-encode.so.1 -> /run/host/usr/lib/libnvidia-encode.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-fbc.so.1 -> /run/host/usr/lib/libnvidia-fbc.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-glcore.so.495.44 -> /run/host/usr/lib/libnvidia-glcore.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-glsi.so.495.44 -> /run/host/usr/lib/libnvidia-glsi.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-glvkspirv.so.495.44 -> /run/host/usr/lib/libnvidia-glvkspirv.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-ml.so.1 -> /run/host/usr/lib/libnvidia-ml.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-opticalflow.so.1 -> /run/host/usr/lib/libnvidia-opticalflow.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-ptxjitcompiler.so.1 -> /run/host/usr/lib/libnvidia-ptxjitcompiler.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-rtcore.so.495.44 -> /run/host/usr/lib/libnvidia-rtcore.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libnvidia-tls.so.495.44 -> /run/host/usr/lib/libnvidia-tls.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/libpciaccess.so.0 -> /run/host/usr/lib/libpciaccess.so.0.11.1",
+        "overrides/lib/x86_64-linux-gnu/libpcprofile.so -> /run/host/usr/lib/libpcprofile.so",
+        "overrides/lib/x86_64-linux-gnu/libpthread.so.0 -> /run/host/usr/lib/libpthread-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libresolv.so.2 -> /run/host/usr/lib/libresolv-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/librt.so.1 -> /run/host/usr/lib/librt-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libsensors.so.5 -> /run/host/usr/lib/libsensors.so.5.0.0",
+        "overrides/lib/x86_64-linux-gnu/libstdc++.so.6 -> /run/host/usr/lib/libstdc++.so.6.0.29",
+        "overrides/lib/x86_64-linux-gnu/libthread_db.so.1 -> /run/host/usr/lib/libthread_db-1.0.so",
+        "overrides/lib/x86_64-linux-gnu/libunistring.so.2 -> /run/host/usr/lib/libunistring.so.2.1.0",
+        "overrides/lib/x86_64-linux-gnu/libutil.so.1 -> /run/host/usr/lib/libutil-2.33.so",
+        "overrides/lib/x86_64-linux-gnu/libva-drm.so.2 -> /run/host/usr/lib/libva-drm.so.2.1300.0",
+        "overrides/lib/x86_64-linux-gnu/libva-glx.so.2 -> /run/host/usr/lib/libva-glx.so.2.1300.0",
+        "overrides/lib/x86_64-linux-gnu/libva-x11.so.2 -> /run/host/usr/lib/libva-x11.so.2.1300.0",
+        "overrides/lib/x86_64-linux-gnu/libva.so.2 -> /run/host/usr/lib/libva.so.2.1300.0",
+        "overrides/lib/x86_64-linux-gnu/libvdpau.so.1 -> /run/host/usr/lib/libvdpau.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libvulkan.so.1 -> /run/host/usr/lib/libvulkan.so.1.2.194",
+        "overrides/lib/x86_64-linux-gnu/libwayland-client.so.0 -> /run/host/usr/lib/libwayland-client.so.0.3.0",
+        "overrides/lib/x86_64-linux-gnu/libwayland-server.so.0 -> /run/host/usr/lib/libwayland-server.so.0.1.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-dri2.so.0 -> /run/host/usr/lib/libxcb-dri2.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-dri3.so.0 -> /run/host/usr/lib/libxcb-dri3.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-glx.so.0 -> /run/host/usr/lib/libxcb-glx.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-present.so.0 -> /run/host/usr/lib/libxcb-present.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-shm.so.0 -> /run/host/usr/lib/libxcb-shm.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-sync.so.1 -> /run/host/usr/lib/libxcb-sync.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb-xfixes.so.0 -> /run/host/usr/lib/libxcb-xfixes.so.0.0.0",
+        "overrides/lib/x86_64-linux-gnu/libxcb.so.1 -> /run/host/usr/lib/libxcb.so.1.1.0",
+        "overrides/lib/x86_64-linux-gnu/libxml2.so.2 -> /run/host/usr/lib/libxml2.so.2.9.12",
+        "overrides/lib/x86_64-linux-gnu/libxshmfence.so.1 -> /run/host/usr/lib/libxshmfence.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/libz.so.1 -> /run/host/usr/lib/libz.so.1.2.11",
+        "overrides/lib/x86_64-linux-gnu/libzstd.so.1 -> /run/host/usr/lib/libzstd.so.1.5.0",
+        "overrides/lib/x86_64-linux-gnu/vdpau/",
+        "overrides/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so -> /run/host/usr/lib/vdpau/libvdpau_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/vdpau/libvdpau_nvidia.so.1 -> /run/host/usr/lib/vdpau/libvdpau_nvidia.so.495.44",
+        "overrides/lib/x86_64-linux-gnu/vdpau/libvdpau_trace.so -> /run/host/usr/lib/vdpau/libvdpau_trace.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/vdpau/libvdpau_trace.so.1 -> /run/host/usr/lib/vdpau/libvdpau_trace.so.1.0.0",
+        "overrides/lib/x86_64-linux-gnu/vulkan_imp_layer/",
+        "overrides/lib/x86_64-linux-gnu/vulkan_imp_layer/libVkLayer_steam_fossilize.so -> $HOME/.local/share/Steam/ubuntu12_64/libVkLayer_steam_fossilize.so",
+        "overrides/lib/x86_64-linux-gnu/vulkan_imp_layer/steamoverlayvulkanlayer.so -> $HOME/.local/share/Steam/ubuntu12_64/steamoverlayvulkanlayer.so",
+        "overrides/share/",
+        "overrides/share/glvnd/",
+        "overrides/share/glvnd/egl_vendor.d/",
+        "overrides/share/glvnd/egl_vendor.d/0.json -> /run/host/usr/share/glvnd/egl_vendor.d/10_nvidia.json",
+        "overrides/share/glvnd/egl_vendor.d/1.json -> /run/host/usr/share/glvnd/egl_vendor.d/50_mesa.json",
+        "overrides/share/vulkan/",
+        "overrides/share/vulkan/explicit_layer.d/",
+        "overrides/share/vulkan/icd.d/",
+        "overrides/share/vulkan/icd.d/0.json -> /run/host/usr/share/vulkan/icd.d/nvidia_icd.json",
+        "overrides/share/vulkan/implicit_layer.d/",
+        "overrides/share/vulkan/implicit_layer.d/0.json -> /run/host/usr/share/vulkan/implicit_layer.d/nvidia_layers.json",
+        "overrides/share/vulkan/implicit_layer.d/1-i386-linux-gnu.json",
+        "overrides/share/vulkan/implicit_layer.d/2-x86_64-linux-gnu.json",
+        "overrides/share/vulkan/implicit_layer.d/3-i386-linux-gnu.json",
+        "overrides/share/vulkan/implicit_layer.d/4-x86_64-linux-gnu.json"
+      ]
+    }
+  },
+  "os-release" : {
+    "id" : "steamrt",
+    "id_like" : [
+      "debian"
+    ],
+    "name" : "Steam Runtime",
+    "pretty_name" : "Steam Runtime 2 (soldier)",
+    "version_id" : "2",
+    "version_codename" : "soldier",
+    "build_id" : "0.20211013.0",
+    "variant_id" : "com.valvesoftware.steamruntime.platform-amd64_i386-soldier",
+    "variant" : "Platform"
+  },
+  "container" : {
+    "type" : "pressure-vessel",
+    "host" : {
+      "path" : "/run/host",
+      "os-release" : {
+        "id" : "manjaro",
+        "id_like" : [
+          "arch"
+        ],
+        "name" : "Manjaro Linux",
+        "pretty_name" : "Manjaro Linux",
+        "build_id" : "rolling"
+      }
+    }
+  },
+  "driver_environment" : [
+    "DISPLAY=:99.0",
+    "LD_LIBRARY_PATH=/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/aliases:/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/aliases",
+    "PULSE_CLIENTCONFIG=/run/user/1000/pulse/config",
+    "PULSE_SERVER=unix:/run/user/1000/pulse/native",
+    "SDL_GAMECONTROLLERCONFIG=03000000de280000ff11000001000000,Steam Virtual Gamepad,a:b0,b:b1,back:b6,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux\n03000000de280000fc11000001000000,Steam Controller,a:b0,b:b1,back:b6,dpdown:b14,dpleft:b15,dpright:b13,dpup:b12,guide:b8,leftshoulder:b4,leftstick:b9,lefttrigger:a2,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b10,righttrigger:a5,rightx:a3,righty:a4,start:b7,x:b2,y:b3,platform:Linux",
+    "VK_ICD_FILENAMES=/usr/lib/pressure-vessel/overrides/share/vulkan/icd.d/0.json",
+    "XDG_RUNTIME_DIR=/run/user/1000",
+    "__EGL_VENDOR_LIBRARY_FILENAMES=/usr/lib/pressure-vessel/overrides/share/glvnd/egl_vendor.d/0.json:/usr/lib/pressure-vessel/overrides/share/glvnd/egl_vendor.d/1.json"
+  ],
+  "architectures" : {
+    "i386-linux-gnu" : {
+      "can-run" : true,
+      "libdl-LIB" : "lib32",
+      "libdl-PLATFORM" : "i686",
+      "runtime-linker" : {
+        "path" : "/lib/ld-linux.so.2",
+        "resolved" : "/run/host/usr/lib32/ld-2.33.so"
+      },
+      "library-issues-summary" : [
+      ],
+      "graphics-details" : {
+        "x11/vulkan" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti",
+          "version" : "1.2.186 (device 0x10de:0x1380) (driver 495.176.0)",
+          "devices" : [
+            {
+              "name" : "NVIDIA GeForce GTX 750 Ti",
+              "api-version" : "1.2.186",
+              "driver-version" : "495.176.0",
+              "vendor-id" : "0x10de",
+              "device-id" : "0x1380",
+              "type" : "discrete-gpu"
+            }
+          ]
+        },
+        "x11/vdpau" : {
+          "renderer" : "NVIDIA VDPAU Driver Shared Library  495.44  Fri Oct 22 05:53:19 UTC 2021\n",
+          "version" : null
+        },
+        "x11/vaapi" : {
+          "messages" : [
+            "libva info: VA-API version 1.13.0",
+            "libva info: Trying to open /usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so",
+            "libva error: dlopen of /usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so failed: /usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so: wrong ELF class: ELFCLASS64",
+            "libva info: Trying to open /usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nvidia_drv_video.so",
+            "libva error: /usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nvidia_drv_video.so has no function __vaDriverInit_1_0",
+            "libva info: va_openDriver() returns -1",
+            "vaInitialize (va_display, &major_version, &minor_version) failed: unknown libva error (-1)"
+          ],
+          "renderer" : null,
+          "version" : null,
+          "issues" : [
+            "cannot-draw"
+          ],
+          "exit-status" : 1
+        },
+        "glx/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/glesv2" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "OpenGL ES 3.2 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        }
+      },
+      "dri_drivers" : [
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/crocus_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/i830_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/i915_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/i965_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/iris_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/kms_swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nouveau_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nouveau_vieux_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/r200_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/r300_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/r600_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/radeon_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/radeonsi_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/virtio_gpu_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/vmwgfx_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/zink_dri.so"
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/crocus_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/i830_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/i915_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/i965_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/iris_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/kms_swrast_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/nouveau_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/nouveau_vieux_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/r200_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/r300_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/r600_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/radeon_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/radeonsi_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/swrast_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/virtio_gpu_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/vmwgfx_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/zink_dri.so",
+          "is_extra" : true
+        }
+      ],
+      "va-api_drivers" : [
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/i965_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nouveau_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/nvidia_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/r600_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/radeonsi_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/s3g_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/dri/vdpau_drv_video.so"
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/i965_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/nouveau_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/nvidia_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/r600_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/radeonsi_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/s3g_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/dri/vdpau_drv_video.so",
+          "is_extra" : true
+        }
+      ],
+      "vdpau_drivers" : [
+        {
+          "library_path" : "/run/host/usr/lib32/vdpau/libvdpau_nvidia.so",
+          "library_link" : "libvdpau_nvidia.so.1",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/vdpau/libvdpau_nvidia.so.1",
+          "library_link" : "libvdpau_nvidia.so.495.44",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/vdpau/libvdpau_trace.so",
+          "library_link" : "libvdpau_trace.so.1",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib32/vdpau/libvdpau_trace.so.1",
+          "library_link" : "libvdpau_trace.so.1.0.0",
+          "is_extra" : true
+        }
+      ],
+      "glx_drivers" : [
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/libGLX_mesa.so.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/libGLX_nvidia.so.0"
+        },
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/run/host/usr/lib32/libGLX_mesa.so.0.0.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/run/host/usr/lib32/libGLX_nvidia.so.495.44"
+        }
+      ]
+    },
+    "x86_64-linux-gnu" : {
+      "can-run" : true,
+      "libdl-LIB" : "lib",
+      "libdl-PLATFORM" : "x86_64",
+      "runtime-linker" : {
+        "path" : "/lib64/ld-linux-x86-64.so.2",
+        "resolved" : "/run/host/usr/lib/ld-2.33.so"
+      },
+      "library-issues-summary" : [
+      ],
+      "graphics-details" : {
+        "x11/vulkan" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti",
+          "version" : "1.2.186 (device 0x10de:0x1380) (driver 495.176.0)",
+          "devices" : [
+            {
+              "name" : "NVIDIA GeForce GTX 750 Ti",
+              "api-version" : "1.2.186",
+              "driver-version" : "495.176.0",
+              "vendor-id" : "0x10de",
+              "device-id" : "0x1380",
+              "type" : "discrete-gpu"
+            }
+          ]
+        },
+        "x11/vdpau" : {
+          "renderer" : "NVIDIA VDPAU Driver Shared Library  495.44  Fri Oct 22 06:03:50 UTC 2021\n",
+          "version" : null
+        },
+        "x11/vaapi" : {
+          "messages" : [
+            "libva info: VA-API version 1.13.0",
+            "libva info: Trying to open /usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so",
+            "libva info: Found init function __vaDriverInit_1_10",
+            "libva info: va_openDriver() returns 0",
+            "vaCreateSurfaces (va_display, VA_RT_FORMAT_YUV420, width, height, surfaces, surfaces_count, &attr, 1) failed: attribute not supported (10)",
+            "x86_64-linux-gnu-check-va-api: vdpau_video.c:325: vdpau_DestroySurfaces: Assertion `obj_surface' failed.",
+            "timeout: the monitored command dumped core"
+          ],
+          "renderer" : null,
+          "version" : null,
+          "issues" : [
+            "cannot-draw"
+          ],
+          "exit-status" : -1,
+          "terminating-signal" : 6,
+          "terminating-signal-name" : "Aborted"
+        },
+        "glx/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/gl" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "4.6.0 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        },
+        "egl_x11/glesv2" : {
+          "renderer" : "NVIDIA GeForce GTX 750 Ti/PCIe/SSE2",
+          "version" : "OpenGL ES 3.2 NVIDIA 495.44",
+          "library-vendor" : "glvnd"
+        }
+      },
+      "dri_drivers" : [
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/crocus_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/i830_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/i915_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/i965_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/iris_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/kms_swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nouveau_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nouveau_vieux_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/r200_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/r300_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/r600_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/radeon_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/radeonsi_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/swrast_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/virtio_gpu_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/vmwgfx_dri.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/zink_dri.so"
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/crocus_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/i830_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/i915_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/i965_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/iris_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/kms_swrast_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/nouveau_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/nouveau_vieux_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/r200_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/r300_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/r600_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/radeon_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/radeonsi_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/swrast_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/virtio_gpu_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/vmwgfx_dri.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/zink_dri.so",
+          "is_extra" : true
+        }
+      ],
+      "va-api_drivers" : [
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/i965_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nouveau_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/nvidia_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/r600_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/radeonsi_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/s3g_drv_video.so"
+        },
+        {
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/dri/vdpau_drv_video.so"
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/i965_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/nouveau_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/nvidia_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/r600_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/radeonsi_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/s3g_drv_video.so",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/dri/vdpau_drv_video.so",
+          "is_extra" : true
+        }
+      ],
+      "vdpau_drivers" : [
+        {
+          "library_path" : "/run/host/usr/lib/vdpau/libvdpau_nvidia.so",
+          "library_link" : "libvdpau_nvidia.so.1",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/vdpau/libvdpau_nvidia.so.1",
+          "library_link" : "libvdpau_nvidia.so.495.44",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/vdpau/libvdpau_trace.so",
+          "library_link" : "libvdpau_trace.so.1",
+          "is_extra" : true
+        },
+        {
+          "library_path" : "/run/host/usr/lib/vdpau/libvdpau_trace.so.1",
+          "library_link" : "libvdpau_trace.so.1.0.0",
+          "is_extra" : true
+        }
+      ],
+      "glx_drivers" : [
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/libGLX_mesa.so.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/libGLX_nvidia.so.0"
+        },
+        {
+          "library_soname" : "libGLX_indirect.so.0",
+          "library_path" : "/run/host/usr/lib/libGLX_mesa.so.0.0.0"
+        },
+        {
+          "library_soname" : "libGLX_mesa.so.0",
+          "library_path" : "/run/host/usr/lib/libGLX_mesa.so.0.0.0"
+        },
+        {
+          "library_soname" : "libGLX_nvidia.so.0",
+          "library_path" : "/run/host/usr/lib/libGLX_nvidia.so.495.44"
+        }
+      ]
+    }
+  },
+  "locale-issues" : [
+    "c-utf8-missing",
+    "i18n-supported-missing"
+  ],
+  "locales" : {
+    "<default>" : {
+      "resulting-name" : "LC_CTYPE=en_US.utf8;LC_NUMERIC=en_US.UTF-8;LC_TIME=en_US.UTF-8;LC_COLLATE=en_US.utf8;LC_MONETARY=en_US.UTF-8;LC_MESSAGES=en_US.utf8;LC_PAPER=en_US.UTF-8;LC_NAME=en_US.UTF-8;LC_ADDRESS=en_US.UTF-8;LC_TELEPHONE=en_US.UTF-8;LC_MEASUREMENT=en_US.UTF-8;LC_IDENTIFICATION=en_US.UTF-8",
+      "charset" : "UTF-8",
+      "is_utf8" : true
+    },
+    "C" : {
+      "resulting-name" : "C",
+      "charset" : "ANSI_X3.4-1968",
+      "is_utf8" : false
+    },
+    "C.UTF-8" : {
+      "error-domain" : "srt-locale-error-quark",
+      "error-code" : 0,
+      "error" : "No such file or directory"
+    },
+    "en_US.UTF-8" : {
+      "resulting-name" : "en_US.UTF-8",
+      "charset" : "UTF-8",
+      "is_utf8" : true
+    }
+  },
+  "egl" : {
+    "icds" : [
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/glvnd/egl_vendor.d/0.json",
+        "library_path" : "libEGL_nvidia.so.0",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/glvnd/egl_vendor.d/1.json",
+        "library_path" : "libEGL_mesa.so.0",
+        "issues" : [
+        ]
+      }
+    ]
+  },
+  "vulkan" : {
+    "icds" : [
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/icd.d/0.json",
+        "library_path" : "libGLX_nvidia.so.0",
+        "api_version" : "1.2.186",
+        "issues" : [
+        ]
+      }
+    ],
+    "explicit_layers" : [
+    ],
+    "implicit_layers" : [
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/implicit_layer.d/0.json",
+        "name" : "VK_LAYER_NV_optimus",
+        "description" : "NVIDIA Optimus layer",
+        "type" : "INSTANCE",
+        "api_version" : "1.2.186",
+        "implementation_version" : "1",
+        "library_path" : "libGLX_nvidia.so.0",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/implicit_layer.d/1-i386-linux-gnu.json",
+        "name" : "VK_LAYER_VALVE_steam_fossilize_32",
+        "description" : "Steam Pipeline Caching Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/vulkan_imp_layer/libVkLayer_steam_fossilize.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/implicit_layer.d/2-x86_64-linux-gnu.json",
+        "name" : "VK_LAYER_VALVE_steam_fossilize_64",
+        "description" : "Steam Pipeline Caching Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/vulkan_imp_layer/libVkLayer_steam_fossilize.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/implicit_layer.d/3-i386-linux-gnu.json",
+        "name" : "VK_LAYER_VALVE_steam_overlay_32",
+        "description" : "Steam Overlay Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/usr/lib/pressure-vessel/overrides/lib/i386-linux-gnu/vulkan_imp_layer/steamoverlayvulkanlayer.so",
+        "issues" : [
+        ]
+      },
+      {
+        "json_path" : "/usr/lib/pressure-vessel/overrides/share/vulkan/implicit_layer.d/4-x86_64-linux-gnu.json",
+        "name" : "VK_LAYER_VALVE_steam_overlay_64",
+        "description" : "Steam Overlay Layer",
+        "type" : "GLOBAL",
+        "api_version" : "1.2.136",
+        "implementation_version" : "1",
+        "library_path" : "/usr/lib/pressure-vessel/overrides/lib/x86_64-linux-gnu/vulkan_imp_layer/steamoverlayvulkanlayer.so",
+        "issues" : [
+        ]
+      }
+    ]
+  },
+  "desktop-entries" : [
+  ],
+  "xdg-portals" : {
+    "details" : {
+      "interfaces" : {
+        "org.freedesktop.portal.OpenURI" : {
+          "available" : true,
+          "version" : 3
+        },
+        "org.freedesktop.portal.Email" : {
+          "available" : true,
+          "version" : 3
+        }
+      },
+      "backends" : {
+        "org.freedesktop.impl.portal.desktop.gtk" : {
+          "available" : true
+        },
+        "org.freedesktop.impl.portal.desktop.kde" : {
+          "available" : false
+        }
+      }
+    },
+    "issues" : [
+    ]
+  },
+  "cpu-features" : {
+    "x86-64" : true,
+    "sse3" : true,
+    "cmpxchg16b" : true
+  }
+}
