@@ -1,0 +1,38 @@
+#!/bin/sh
+BASE=$HOME/.local/share/Steam/steamapps/compatdata/287450/pfx/drive_c/windows/syswow64
+
+do_mv() {
+	mv "$BASE/$1" "$BASE/0_$1"
+}
+
+dooo_mv() {
+
+# directmusic
+do_mv 'dmband.dll'
+do_mv 'dmcompos.dll'
+do_mv 'dmime.dll'
+do_mv 'dmloader.dll'
+do_mv 'dmscript.dll'
+do_mv 'dmstyle.dll'
+do_mv 'dmsynth.dll'
+do_mv 'dmusic.dll'
+do_mv 'dmusic32.dll'
+do_mv 'dsound.dll'
+do_mv 'dswave.dll'
+
+# directplay
+do_mv 'dplaysvr.exe'
+do_mv 'dplayx.dll'
+do_mv 'dpmodemx.dll'
+do_mv 'dpnet.dll'
+do_mv 'dpnhpast.dll'
+do_mv 'dpnhupnp.dll'
+do_mv 'dpnsvr.exe'
+do_mv 'dpwsockx.dll'
+
+}
+
+dooo_mv
+protontricks 287450 sound=alsa
+protontricks 287450 directmusic
+protontricks 287450 directplay
