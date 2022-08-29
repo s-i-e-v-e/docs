@@ -31,3 +31,18 @@ Tags: [value types, structs, type punning, memory layout]
 - 0oN... Oct
 - n... Dec
 - nK... [Kilobyte constant](https://prog21.dadgum.com/32.html)
+
+## Versioning
+
+- [C++ Epochs](https://www.open-std.org/jtc1/sc22/wg21/docs/papers/2019/p1881r0.html)
+- Rust Editions
+
+## Languages
+
+Tags: [Lisps, microcontrollers]
+- [Ferret](https://ferret-lang.org/)
+- [ulisp](http://www.ulisp.com/)
+
+Tags: [Lisps]
+- [Readable Lisp S-expressions](https://readable.sourceforge.io/)
+- [Naming conventions](https://www.cliki.net/naming+conventions)
